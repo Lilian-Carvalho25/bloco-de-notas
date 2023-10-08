@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
     color: white;
+    background-color: black;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 200px;
-    border: 1px dashed gray;
+    border: 1px dashed whitesmoke;
     height: 150px;
     cursor: pointer;
 }
@@ -33,11 +34,11 @@ body {
     width: fit-content;
     border-radius: 50%;
     font-size: xx-large;
-    color: #4b4453;
+    color: whitesmoke;
 }
 
 .addNote-content span {
-    color: #4b4453;
+    color: whitesmoke;
 }
 
 .content {
@@ -73,7 +74,8 @@ textarea::-webkit-scrollbar-thumb {
 
 .remove {
     position: absolute;
-    right: 6px;
+    right: 12px;
     cursor: pointer;
     color: white;
+    background-color: transparent;
 }
